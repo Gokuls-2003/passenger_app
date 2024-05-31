@@ -41,6 +41,8 @@ dependencies:
   latlng_picker: ^0.0.6
   latlong2: ^0.9.1
   curved_navigation_bar: ^1.0.3
+  lottie: ^3.1.2
+  flutter_datetime_picker_plus: ^2.2.0
 
 dev_dependencies:
   flutter_test:

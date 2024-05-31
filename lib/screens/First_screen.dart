@@ -36,8 +36,8 @@ class _First_ScreenState extends State<First_Screen> {
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(
-          horizontal: 15.0,
-          vertical: 20.0,
+          horizontal: 5.0,
+          vertical: 10.0,
         ),
         child: Column(
           children: [
@@ -50,25 +50,25 @@ class _First_ScreenState extends State<First_Screen> {
 
   Widget _headerText() {
     return SizedBox(
-        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
         child: Container(
-            height: 800,
+            height: 500,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               gradient: const LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                  Color(0xFFF9D276),
+                  Colors.yellow,
                   Colors.white,
                 ],
-                stops: [0.2, 0.6],
+                stops: [0.3, 0.6],
               ),
             ),
             child: Stack(children: [
               const Positioned.fill(
                 child: Padding(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(28),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
